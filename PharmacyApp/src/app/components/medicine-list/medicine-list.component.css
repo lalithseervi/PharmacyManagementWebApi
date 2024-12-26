@@ -1,0 +1,39 @@
+.medicine-list-container {
+    margin: 20px;
+    height: 80vh;
+  }
+  
+  .search-bar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .mat-table {
+    width: 100%;
+  }
+  
+  .input-cell {
+    width: 100%;
+    padding: 0 0px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  mat-form-field {
+    margin: 0;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .mat-header-cell,
+  .mat-cell {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .mat-icon-button {
+    margin-left: 5px;
+  }
+  

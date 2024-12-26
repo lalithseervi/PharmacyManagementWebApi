@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Supplier Details</h2>
+  
+    <mat-form-field appearance="fill" class="form-field">
+      <mat-label>Supplier Name</mat-label>
+      <input matInput placeholder="Enter supplier name" [(ngModel)]="record.name" />
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill" class="form-field">
+      <mat-label>Contact</mat-label>
+      <input matInput placeholder="Enter contact number" [(ngModel)]="record.contact" />
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill" class="form-field">
+      <mat-label>Address</mat-label>
+      <input matInput placeholder="Enter address" [(ngModel)]="record.address" />
+    </mat-form-field>
+  
+    <div class="action-buttons">
+      <button mat-raised-button color="primary" (click)="save()">Save</button>
+    </div>
+  </div>
+  

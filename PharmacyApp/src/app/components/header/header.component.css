@@ -1,0 +1,30 @@
+.app-header {
+  display: flex;
+  background-color: black;
+  color: #ccc;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+/* Corrected hover effect on the button */
+button:hover {
+  color: white; /* Change text color on hover */
+  background-color: blue; /* Change background color on hover */
+}
+
+mat-icon {
+  transition: color 0.3s; /* Smooth transition for the icon color */
+}
+
+button:hover mat-icon {
+  color: white; /* Change icon color on hover */
+}
+
+#hospitalicon
+{
+  padding: 10px;
+}

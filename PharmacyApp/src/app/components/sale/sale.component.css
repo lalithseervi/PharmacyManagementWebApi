@@ -1,0 +1,81 @@
+.sales-form-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 16px;
+  }
+  
+  button.mat-raised-button {
+    background-color: #3f51b5;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+  }
+  
+  button.mat-raised-button:hover {
+    background-color: #303f9f;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  mat-datepicker-toggle {
+    margin-top: 8px;
+  }
+  
+  .mat-form-field-label {
+    font-size: 14px;
+  }
+  
+  .mat-input-element {
+    font-size: 14px;
+  }
+  
+  input[type="number"] {
+    text-align: right;
+  }
+  
+  mat-label {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 600px) {
+    .sales-form-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    button.mat-raised-button {
+      font-size: 14px;
+    }
+  }
+
+  .available-quantity {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  mat-error {
+    display: block !important;
+    color: red !important; /* Ensure it is visible */
+  }
+  
+  
+  
+  

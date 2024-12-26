@@ -1,0 +1,59 @@
+<div class="sales-form-container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Sales</mat-card-title>
+    </mat-card-header>
+    <br>
+    <mat-card-content>
+      <form>
+        <!-- Sale Date -->
+        <mat-form-field appearance="outline" class="input-field">
+          <mat-label>Sale Date</mat-label>
+          <input matInput [matDatepicker]="picker" [(ngModel)]="record.saleDate" placeholder="Select Sale Date" required name="saleDate">
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <!-- Customer Name -->
+        <mat-form-field appearance="outline" class="input-field">
+          <mat-label>Customer Name</mat-label>
+          <input matInput type="text" [(ngModel)]="record.customerName" placeholder="Enter Customer Name" required name="customerName">
+        </mat-form-field>
+
+        <!-- Medicine Selection -->
+        <mat-form-field class="full-width">
+          <mat-label>Medicine Name</mat-label>
+          <mat-select name="medicine" class="textCtrl" [(ngModel)]="record.medicineId" required (selectionChange)="updateAvailableQuantity($event.value)">
+            <mat-option *ngFor="let med of dtmedicine" [value]="med.id">{{med.name}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <!-- Available Quantity -->
+        <div class="available-quantity">
+          <small *ngIf="availableQuantity !== null">Available Quantity: {{ availableQuantity }}</small>
+        </div>
+
+        <!-- Quantity Sold -->
+         <mat-form-field appearance="outline" class="input-field">
+          <mat-label>Quantity Sold</mat-label>
+          <input matInput type="number" [(ngModel)]="record.quantitySold" placeholder="Enter Quantity Sold" required name="quantitySold" (ngModelChange)="validateQuantity()" (keyup)="calculateTotalPrice()">
+
+          <mat-error *ngIf="quantityError">{{ quantityError }}</mat-error>
+          <div *ngIf="quantityError" style="color: red; font-size: 10px;">{{ quantityError }}</div>
+
+
+        </mat-form-field> 
+        
+
+        <!-- Total Price -->
+        <mat-form-field appearance="outline" class="input-field">
+          <mat-label>Total Price</mat-label>
+          <input matInput type="number" [(ngModel)]="record.totalPrice" [value]="totalPrice" placeholder="Enter Total Price" required name="totalPrice">
+        </mat-form-field>
+
+        <!-- Submit Button -->
+        <button mat-raised-button color="primary" [disabled]="quantityError !== null" (click)="postsale()">Post Sale</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div> 

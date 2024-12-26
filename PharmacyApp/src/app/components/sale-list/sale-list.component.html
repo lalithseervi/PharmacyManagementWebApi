@@ -1,0 +1,68 @@
+<div class="sales-list-container">
+    <!-- Date Range Filter -->
+    <div class="filter-section">
+      <mat-form-field appearance="outline" class="date-field">
+        <mat-label>From Date</mat-label>
+        <input matInput [matDatepicker]="fromPicker" [(ngModel)]="fromDate" placeholder="Start Date">
+        <mat-datepicker-toggle matSuffix [for]="fromPicker"></mat-datepicker-toggle>
+        <mat-datepicker #fromPicker></mat-datepicker>
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline" class="date-field">
+        <mat-label>To Date</mat-label>
+        <input matInput [matDatepicker]="toPicker" [(ngModel)]="toDate" placeholder="End Date">
+        <mat-datepicker-toggle matSuffix [for]="toPicker"></mat-datepicker-toggle>
+        <mat-datepicker #toPicker></mat-datepicker>
+      </mat-form-field>
+  
+      <button mat-raised-button color="primary" (click)="applyDateFilter()">Filter</button>
+      <button mat-raised-button color="accent" (click)="exportToPDF()">Export to PDF</button>
+      <button mat-raised-button color="accent" (click)="exportToExcel()">Export to Excel</button>
+    </div>
+  
+    <!-- Sales Table -->
+    <mat-table [dataSource]="filteredSales" class="mat-elevation-z8">
+      <!-- ID Column -->
+      <ng-container matColumnDef="id">
+        <mat-header-cell *matHeaderCellDef> ID </mat-header-cell>
+        <mat-cell *matCellDef="let sale"> {{ sale.id }} </mat-cell>
+      </ng-container>
+
+      <!-- Customer Name Column -->
+      <ng-container matColumnDef="customerName">
+        <mat-header-cell *matHeaderCellDef> Customer Name </mat-header-cell>
+        <mat-cell *matCellDef="let sale"> {{ sale.customerName }} </mat-cell>
+      </ng-container>
+  
+      <!-- Medicine ID Column -->
+      <ng-container matColumnDef="medicineId">
+        <mat-header-cell *matHeaderCellDef> Medicine ID </mat-header-cell>
+        <mat-cell *matCellDef="let sale"> {{ sale.medicineId }} </mat-cell>
+      </ng-container>
+  
+      <!-- Quantity Sold Column -->
+      <ng-container matColumnDef="quantitySold">
+        <mat-header-cell *matHeaderCellDef> Quantity Sold </mat-header-cell>
+        <mat-cell *matCellDef="let sale"> {{ sale.quantitySold }} </mat-cell>
+      </ng-container>
+  
+      <!-- Total Price Column -->
+      <ng-container matColumnDef="totalPrice">
+        <mat-header-cell *matHeaderCellDef> Total Price </mat-header-cell>
+        <mat-cell *matCellDef="let sale"> ₹ {{ sale.totalPrice  }} </mat-cell>
+      </ng-container>
+  
+      <!-- Sale Date Column -->
+      <ng-container matColumnDef="saleDate">
+        <mat-header-cell *matHeaderCellDef> Sale Date </mat-header-cell>
+        <mat-cell *matCellDef="let sale"> {{ sale.saleDate | date:'mediumDate' }} </mat-cell>
+      </ng-container>
+  
+      
+  
+      <!-- Header and Rows -->
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
+  

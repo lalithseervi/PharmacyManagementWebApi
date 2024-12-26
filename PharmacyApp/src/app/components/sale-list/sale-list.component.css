@@ -1,0 +1,15 @@
+.sales-list-container {
+    margin: 20px;
+  }
+  
+  .filter-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .date-field {
+    width: 200px;
+  }
+  

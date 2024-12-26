@@ -1,0 +1,32 @@
+.landing-content {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .landing-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .landing-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .landing-content button {
+    margin-top: 20px;
+  }
+  
+  .header,
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

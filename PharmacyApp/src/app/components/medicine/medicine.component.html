@@ -1,0 +1,49 @@
+<div class="add-medicine-container">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Add New Medicine</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <form>
+          <!-- Medicine Name -->
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Medicine Name</mat-label>
+            <input matInput placeholder="Enter medicine name" [(ngModel)]="record.name" name="name" required>
+          </mat-form-field>
+  
+          <!-- Description -->
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Description</mat-label>
+            <textarea matInput placeholder="Enter description" [(ngModel)]="record.description" name="description" rows="3"></textarea>
+          </mat-form-field>
+  
+          <!-- Price -->
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Price</mat-label>
+            <input matInput type="number" placeholder="Enter price" [(ngModel)]="record.price" name="price" required>
+          </mat-form-field>
+  
+          <!-- Quantity -->
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Quantity</mat-label>
+            <input matInput type="number" placeholder="Enter quantity" [(ngModel)]="record.quantity" name="quantity" required>
+          </mat-form-field>
+  
+          <!-- Expiry Date -->
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Expiry Date</mat-label>
+            <input matInput [matDatepicker]="picker" placeholder="Select expiry date" [(ngModel)]="record.expiryDate" name="expiryDate" required>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+  
+          <!-- Submit Button -->
+          <div class="button-container">
+            <button mat-raised-button color="primary" (click)="addmeds()" >Add Medicine</button>
+            <!-- <button mat-button type="button" color="warn" (click)="onCancel()">Cancel</button> -->
+          </div>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

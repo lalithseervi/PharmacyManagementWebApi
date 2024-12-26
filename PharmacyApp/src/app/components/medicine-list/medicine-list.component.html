@@ -1,0 +1,91 @@
+<div class="medicine-list-container">
+    <!-- Search Bar -->
+    <mat-form-field appearance="outline" class="search-bar">
+      <mat-label>Search Medicine</mat-label>
+      <input matInput placeholder="Enter medicine name" [(ngModel)]="searchTerm" (keyup)="applyFilter()">
+    </mat-form-field>
+  
+    <!-- Medicine Table -->
+    <mat-table [dataSource]="filteredMedicines" class="mat-elevation-z8" matSort>
+      <!-- ID Column -->
+      <ng-container matColumnDef="id">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> ID </mat-header-cell>
+        <mat-cell *matCellDef="let medicine"> {{ medicine.id }} </mat-cell>
+      </ng-container>
+  
+      <!-- Medicine Name Column -->
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> Medicine Name </mat-header-cell>
+        <mat-cell *matCellDef="let medicine">
+          <mat-form-field appearance="outline" class="input-cell">
+            <mat-label>Medicine Name</mat-label>
+            <input matInput type="text" [(ngModel)]="medicine.name" placeholder="Update name">
+          </mat-form-field>
+        </mat-cell>
+      </ng-container>
+  
+      <!-- Description Column -->
+      <ng-container matColumnDef="description">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> Description </mat-header-cell>
+        <mat-cell *matCellDef="let medicine">
+          <mat-form-field appearance="outline" class="input-cell">
+            <mat-label>Description</mat-label>
+            <input matInput type="text" [(ngModel)]="medicine.description" placeholder="Update description">
+          </mat-form-field>
+        </mat-cell>
+      </ng-container>
+  
+      <!-- Price Column -->
+      <ng-container matColumnDef="price">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> Price </mat-header-cell>
+        <mat-cell *matCellDef="let medicine">
+          <mat-form-field appearance="outline" class="input-cell">
+            <mat-label>Price</mat-label>
+            <input matInput type="number" [(ngModel)]="medicine.price" placeholder="Update price">
+          </mat-form-field>
+        </mat-cell>
+      </ng-container>
+  
+      <!-- Quantity Column -->
+      <ng-container matColumnDef="quantity">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> Quantity </mat-header-cell>
+        <mat-cell *matCellDef="let medicine">
+          <mat-form-field appearance="outline" class="input-cell">
+            <mat-label>Quantity</mat-label>
+            <input matInput type="number" [(ngModel)]="medicine.quantity" placeholder="Update quantity">
+          </mat-form-field>
+        </mat-cell>
+      </ng-container>
+  
+      <!-- Expiry Date Column -->
+      <ng-container matColumnDef="expiryDate">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> Expiry Date </mat-header-cell>
+        <mat-cell *matCellDef="let medicine">
+          <mat-form-field appearance="outline" class="input-cell">
+            <mat-label>Expiry Date</mat-label>
+            <input matInput [matDatepicker]="picker" [(ngModel)]="medicine.expiryDate" placeholder="Select expiry date">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </mat-cell>
+      </ng-container>
+  
+      <!-- Actions Column -->
+      <ng-container matColumnDef="actions">
+        <mat-header-cell *matHeaderCellDef> Actions </mat-header-cell>
+        <mat-cell *matCellDef="let medicine">
+          <button mat-icon-button color="primary" (click)="updateMedicine(medicine)" matTooltip="Update" aria-label="Update">
+            <mat-icon>save</mat-icon>
+          </button>
+          <button mat-icon-button color="warn" (click)="deleteMedicine(medicine.id)" matTooltip="Delete" aria-label="Delete">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </mat-cell>
+      </ng-container>
+  
+      <!-- Header and Rows -->
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
+  
