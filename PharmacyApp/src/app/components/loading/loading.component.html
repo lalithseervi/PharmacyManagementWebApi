@@ -1,6 +1,7 @@
-<!-- loading-spinner.component.html -->
-<div class="loading-spinner">
-    <div class="spinner"></div>
-    <p>Loading...</p> <!-- Temporary element to verify visibility -->
+<!-- loading.component.html -->
+<div *ngIf="loading$ | async" class="loading-overlay">
+  <div class="capsule-loader">
+    <div class="capsule"></div>
   </div>
-  
+  <p>Loading...</p>
+</div>
