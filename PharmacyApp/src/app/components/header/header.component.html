@@ -2,10 +2,18 @@
   <mat-icon id="hospitalicon">local_hospital</mat-icon>
   <span>PharmaFlow</span>
   <span class="spacer"></span>
+
   <nav>
-    <button mat-button routerLink="/dashboard"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
-      Dashboard</button>
-    <button mat-button routerLink="/login"><mat-icon>login</mat-icon>Login</button>
-    <button mat-button routerLink="/signup"><mat-icon>account_circle</mat-icon>Signup</button>
+    <button mat-button routerLink="/dashboard" [disabled]="!isLoggedIn">
+      <mat-icon>dashboard</mat-icon>
+      Dashboard
+    </button>
+    <button mat-button routerLink="/" (click)="disableLogin()">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+      Home
+    </button>
+    <button mat-button (click)="logout()" [disabled]="!isLoggedIn">
+      <mat-icon>exit_to_app</mat-icon>Logout
+    </button>
   </nav>
 </mat-toolbar>

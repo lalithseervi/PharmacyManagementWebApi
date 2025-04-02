@@ -3,6 +3,7 @@ import * as jsPDF from 'jspdf';
 import 'jspdf-autotable';
 import { sale } from 'src/app/models/sale';
 import { CommonservicesService } from 'src/app/services/commonservices.service';
+import { LoadingService } from 'src/app/services/loading.service';
 import * as XLSX from 'xlsx';
 
 @Component({
@@ -17,9 +18,15 @@ export class SaleListComponent implements OnInit {
   toDate!: Date | null;
   displayedColumns: string[] = ['id', 'customerName', 'medicineId', 'quantitySold', 'totalPrice', 'saleDate'];
 
-  constructor(private _service : CommonservicesService) { }
+  constructor(private _service : CommonservicesService,private loadingService : LoadingService) { }
 
   ngOnInit(): void {
+    this.loadingService.showLoading();
+    setTimeout(() => {
+      console.log('Task completed');
+      this.loadingService.hideLoading();
+    }, 1000);
+
     this.fetchsales();
   }
 

@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\controllers\\medicinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\models\\updateinventoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\models\\updateinventoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\migrations\\20241225055057_init01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|solutionrelative:pharmacymanagementappwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93A6362B-4501-495F-A7AB-135E14DD468D}|PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI.csproj|c:\\angular project\\pharmacy management system\\pharmacymanagementappwebapi\\pharmacymanagementappwebapi\\migrations\\20241225164850_init02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +66,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "medicinesController.cs",
+              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\medicinesController.cs",
+              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Controllers\\medicinesController.cs",
+              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\medicinesController.cs",
+              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Controllers\\medicinesController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAQwFkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T06:02:43.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "salesController.cs",
+              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\salesController.cs",
+              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Controllers\\salesController.cs",
+              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\salesController.cs",
+              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Controllers\\salesController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAQwIkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T06:03:35.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Program.cs",
+              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Program.cs",
+              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T04:36:47.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UpdateInventoryRequest.cs",
               "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\UpdateInventoryRequest.cs",
               "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Models\\UpdateInventoryRequest.cs",
@@ -79,6 +116,78 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T17:23:03.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\appsettings.json",
+              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\appsettings.json",
+              "RelativeToolTip": "PharmacyManagementAppWebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-25T04:48:33.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "adminsController.cs",
+              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\adminsController.cs",
+              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Controllers\\adminsController.cs",
+              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\adminsController.cs",
+              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Controllers\\adminsController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAA3wH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T06:02:00.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Data\\MyDbContext.cs",
+              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Data\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T04:49:51.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "medicine.cs",
+              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\medicine.cs",
+              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Models\\medicine.cs",
+              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\medicine.cs",
+              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Models\\medicine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T05:27:03.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "sale.cs",
+              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\sale.cs",
+              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Models\\sale.cs",
+              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\sale.cs",
+              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Models\\sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T05:28:58.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "supplier.cs",
+              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\supplier.cs",
+              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Models\\supplier.cs",
+              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\supplier.cs",
+              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Models\\supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T05:32:40.741Z"
             },
             {
               "$type": "Document",
@@ -94,68 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "supplier.cs",
-              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\supplier.cs",
-              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Models\\supplier.cs",
-              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\supplier.cs",
-              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Models\\supplier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T05:32:40.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "sale.cs",
-              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\sale.cs",
-              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Models\\sale.cs",
-              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\sale.cs",
-              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Models\\sale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T05:28:58.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "medicine.cs",
-              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\medicine.cs",
-              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Models\\medicine.cs",
-              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\medicine.cs",
-              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Models\\medicine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T05:27:03.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "medicinesController.cs",
-              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\medicinesController.cs",
-              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Controllers\\medicinesController.cs",
-              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\medicinesController.cs",
-              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Controllers\\medicinesController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T06:02:43.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "salesController.cs",
-              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\salesController.cs",
-              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Controllers\\salesController.cs",
-              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\salesController.cs",
-              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Controllers\\salesController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAQwIkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T06:03:35.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "20241225055057_Init01.cs",
               "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Migrations\\20241225055057_Init01.cs",
               "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Migrations\\20241225055057_Init01.cs",
@@ -167,31 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "adminsController.cs",
-              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\adminsController.cs",
-              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Controllers\\adminsController.cs",
-              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\adminsController.cs",
-              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Controllers\\adminsController.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAA3wHcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T06:02:00.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Program.cs",
-              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Program.cs",
-              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T04:36:47.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "suppliersController.cs",
               "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Controllers\\suppliersController.cs",
               "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Controllers\\suppliersController.cs",
@@ -203,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "admin.cs",
               "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Models\\admin.cs",
               "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Models\\admin.cs",
@@ -212,30 +236,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T05:31:58.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Data\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\Data\\MyDbContext.cs",
-              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\Data\\MyDbContext.cs",
-              "RelativeToolTip": "PharmacyManagementAppWebAPI\\Data\\MyDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T04:49:51.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "PharmacyManagementAppWebAPI\\appsettings.json",
-              "ToolTip": "C:\\Angular Project\\Pharmacy Management System\\PharmacyManagementAppWebAPI\\PharmacyManagementAppWebAPI\\appsettings.json",
-              "RelativeToolTip": "PharmacyManagementAppWebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-25T04:48:33.599Z"
             }
           ]
         }

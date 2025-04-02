@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { sale } from 'src/app/models/sale';
 import { CommonservicesService } from 'src/app/services/commonservices.service';
+import { LoadingService } from 'src/app/services/loading.service';
 
 @Component({
   selector: 'app-sale',
@@ -14,11 +15,17 @@ export class SaleComponent implements OnInit {
   dtmedicine: any[] = [];
   availableQuantity: number | null = null;
   quantityError: string | null = null;
-  totalPrice: number = 0;
+  // totalPrice: number = 0;
 
-  constructor(private _service : CommonservicesService, private snackBar : MatSnackBar) { }
+  constructor(private _service : CommonservicesService, private snackBar : MatSnackBar, private loadingService : LoadingService) { }
 
   ngOnInit(): void {
+    this.loadingService.showLoading();
+    setTimeout(() => {
+      console.log('Task completed');
+      this.loadingService.hideLoading();
+    }, 1000);
+
     this._service.GetMedicine().subscribe({
       next: (data: any) =>{
         console.log(data);
@@ -51,7 +58,7 @@ export class SaleComponent implements OnInit {
    {
     const selectedMedicine = this.dtmedicine.find(med => med.id === this.record.medicineId);
     if (selectedMedicine) {
-      this.totalPrice = selectedMedicine.price * this.record.quantitySold;
+      this.record.totalPrice = selectedMedicine.price * this.record.quantitySold;
     }
    }
 
@@ -62,7 +69,7 @@ export class SaleComponent implements OnInit {
     this._service.PostSale(this.record).subscribe({
           next: (data: any) =>{
             console.log(data);
-            this.snackBar.open('Medicine added Successfully','Close', {duration: 3000});
+            this.snackBar.open('Sale posted Successfully','Close', {duration: 3000});
             this.record=new sale();
           },
           error: (err: any) =>{

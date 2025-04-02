@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonservicesService } from 'src/app/services/commonservices.service';
+import { LoadingService } from 'src/app/services/loading.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -15,13 +16,21 @@ export class DashboardComponent implements OnInit {
   record : any[] = [];
   record1 : any[] = [];
 
-  constructor(private router: Router, private _service : CommonservicesService) {}
+  constructor(private router: Router, private _service : CommonservicesService, private loadingService : LoadingService) {}
 
   ngOnInit(): void {
     // Mock data - Replace with API calls for live data
     // this.totalSales = 150; // Replace with backend data
     // this.totalInventory = 500; // Replace with backend data
     // this.totalSuppliers = 25; // Replace with backend data
+    this.loadingService.showLoading();
+
+    // Simulate a task (like data fetch or component logic)
+    setTimeout(() => {
+      console.log('Task completed');
+      // Optionally stop loading early
+      this.loadingService.hideLoading();
+    }, 1000);
 
     this.fetchsales();
     this.fetchInventory();
@@ -77,6 +86,7 @@ export class DashboardComponent implements OnInit {
   logout(): void {
     alert('Logged out!');
     this.router.navigate(['/login']);
+    (window as any).appComponentRef.component.setLoginState(false);
   }
 
 }

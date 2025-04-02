@@ -2,7 +2,7 @@
 .dashboard-container {
   display: flex;
   height: 100vh;
-  background-color: #f9f9f9; /* Light background for the whole page */
+  background-color: #ffffff; /* Light gray background for the whole page */
 }
 
 /* Sidenav container and style */
@@ -12,20 +12,23 @@
   height: 100%;
 }
 
+/* Sidebar styling */
 .mat-sidenav {
-  width: 250px;
-  background-color: #ffffff; /* Light background for the sidebar */
-  color: #333333; /* Dark text color for contrast */
+  width: 270px;
+  background-color: #e6d6f5; /* Dark sidebar background */
+  color: #ffffff; /* White text color for contrast */
   padding-top: 20px;
   box-shadow: 4px 0 6px rgba(0, 0, 0, 0.1);
-  border-right: 1px solid #ddd; /* Light border to separate the sidebar */
+  border-right: 1px solid #3b4a61; /* Darker border to match sidebar color */
 }
 
 .sidenav-header {
   text-align: center;
   padding: 20px 0;
-  font-size: 1.5em;
-  color: #2c3e50; /* Dark color for the title */
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 2px solid #3b4a61; /* Border under the header */
 }
 
 .mat-nav-list {
@@ -36,76 +39,114 @@
 .nav-item {
   display: flex;
   align-items: center;
-  padding: 12px 16px;
+  padding: 14px 18px;
   font-size: 16px;
-  color: #333333;
+  font-style: bold;
+  color: #dcdde1; /* Soft light color for nav items */
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .nav-item mat-icon {
   margin-right: 16px;
-  font-size: 20px;
+  /* margin-top: 10px; */
+  font-size: 22px;
 }
 
 .nav-item:hover {
-  background-color: #ecf0f1; /* Light hover effect */
-  color: #2c3e50; /* Dark text color on hover */
+  background-color: whitesmoke; /* Dark hover effect */
+  color: #ffffff; /* White text color on hover */
 }
 
 /* Content section (main dashboard) */
 .mat-sidenav-content {
   flex: 1;
-  padding: 20px;
+  padding: 40px 30px;
   display: flex;
-  justify-content: center; /* Centers the card container horizontally */
-  align-items: center; /* Centers the card container vertically */
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f5f7;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for content */
 }
 
+/* Card container */
 .card-container {
   display: flex;
-  gap: 20px;
-  justify-content: center; /* Centers the cards horizontally */
-  align-items: center; /* Centers the cards vertically */
-  max-width: 1200px; /* Prevent cards from stretching too much on large screens */
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
   flex-wrap: wrap;
-  height: 60%; 
-  margin-top: 10px;/* Ensures cards are centered vertically */
+  height: 100%;
 }
 
-.dashboard-card {
-  width: 280px; /* Increased width to make the cards bigger */
-  height: 250px; /* Increased height to make the cards bigger */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  background-color: #ffffff; /* White background for the cards */
-  padding: 16px;
-  margin-bottom: 180px;
-  margin-left: 50px;
+/* Individual card styling */
+/* .dashboard-card {
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+} */
+
+/* .dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
+} */
+.dashboard-card {
+  width: 300px;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid #bdc3c7; /* Add a border with a light gray color */
+  margin-top: -300px;
+  padding: 40px;
 }
 
+.dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(249, 249, 249, 0.15); /* Slightly bigger shadow on hover */
+  border-color: #34495e; /* Change border color on hover */
+}
+
+
+/* Card header styling */
 .dashboard-card mat-card-header {
-  background-color: #f7f7f7; /* Very light gray for the card header */
+  background-color: #ecf0f1;
   border-radius: 8px 8px 0 0;
-  padding: 10px;
+  padding: 12px;
 }
 
+/* Card title styling */
 .dashboard-card mat-card-title {
-  font-size: 1.4em; /* Larger font size for the card titles */
-  color: #2c3e50;
+  margin-left: 30px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #34495e;
 }
 
+/* Card content styling */
 .dashboard-card mat-card-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.5em; /* Larger text size for the numbers */
-  color: #34495e; /* Slightly muted dark color */
+  font-size: 3em;
+  color: #2c3e50;
+  font-weight: bold;
 }
 
+/* Media query for tablets and smaller screens */
 @media screen and (max-width: 1024px) {
   .card-container {
     flex-direction: column;
@@ -113,11 +154,21 @@
   }
 
   .dashboard-card {
-    width: 80%;
-    height: 200px; /* Adjusted height for smaller screens */
+    width: 90%; /* Full width for smaller screens */
+    height: 260px;
+  }
+
+  .mat-sidenav {
+    width: 220px; /* Slightly smaller sidebar */
+  }
+
+  .nav-item {
+    font-size: 14px;
+    padding: 12px;
   }
 }
 
+/* Media query for mobile screens */
 @media screen and (max-width: 768px) {
   .mat-sidenav {
     width: 200px;
@@ -125,11 +176,13 @@
 
   .nav-item {
     font-size: 14px;
-    padding: 10px;
+    padding: 12px;
+    
   }
+  
 
   .dashboard-card {
-    width: 100%;
-    height: 180px; /* Further adjusted height for very small screens */
+    width: 100%; /* Full width for mobile */
+    height: 240px; /* Adjusted height for mobile */
   }
 }

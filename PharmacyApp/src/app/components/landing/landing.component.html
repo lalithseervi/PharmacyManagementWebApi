@@ -1,14 +1,35 @@
-<mat-toolbar color="primary" class="header">
-    <span>Pharmacy Management App</span>
-  </mat-toolbar>
-  
-  <div class="landing-content">
-    <h1>Welcome to the Pharmacy Management App</h1>
-    <p>Streamline your pharmacy operations with ease.</p>
-    <button mat-raised-button color="accent" routerLink="/login">Get Started</button>
-  </div>
-  
-  <mat-toolbar color="primary" class="footer">
-    <span>&copy; 2024 Pharmacy Management App. All rights reserved.</span>
-  </mat-toolbar>
-  
+<div class="landing-container">
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="animate-fade-in">Welcome to PHARMAFLOW</h1>
+      <p class="animate-slide-in">
+        Streamline your pharmacy operations with ease and efficiency. Manage inventory, sales, and more in one place!
+      </p>
+      <button class="cta-button animate-grow" routerLink="/login" >Get Started</button>
+    </div>
+    <div class="hero-image animate-slide-up">
+      <img src="assets/pharmacy-hero.png" alt="Pharmacy Management" />
+    </div>
+  </section>
+
+  <section class="features-section">
+    <h2 class="section-title animate-fade-in">Key Features</h2>
+    <div class="features-grid">
+      <div class="feature-card animate-slide-in">
+        <img src="assets/feature-inventory.jpg" alt="Inventory Management" />
+        <h3>Inventory Management</h3>
+        <p>Track and manage stock levels effortlessly.</p>
+      </div>
+      <div class="feature-card animate-slide-in">
+        <img src="assets/feature-sales.jpg" alt="Sales Tracking" />
+        <h3>Sales Tracking</h3>
+        <p>Monitor daily sales and generate reports.</p>
+      </div>
+      <div class="feature-card animate-slide-in">
+        <img src="assets/feature-reports.jpg" alt="Reports and Analytics" />
+        <h3>Reports and Analytics</h3>
+        <p>Gain insights into your pharmacy's performance.</p>
+      </div>
+    </div>
+  </section>
+</div>

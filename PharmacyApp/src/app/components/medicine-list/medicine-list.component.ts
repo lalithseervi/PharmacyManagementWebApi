@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { CommonservicesService } from 'src/app/services/commonservices.service';
+import { LoadingService } from 'src/app/services/loading.service';
 
 @Component({
   selector: 'app-medicine-list',
@@ -14,9 +15,14 @@ export class MedicineListComponent implements OnInit {
   filteredMedicines = new MatTableDataSource<any>();
   searchTerm: string = '';
 
-  constructor(private _service : CommonservicesService) { }
+  constructor(private _service : CommonservicesService, private loadingService : LoadingService) { }
   
   ngOnInit(): void {
+    this.loadingService.showLoading();
+    setTimeout(() => {
+      console.log('Task completed');
+      this.loadingService.hideLoading();
+    }, 1000);
     this.fetchMedicines();
   }
   

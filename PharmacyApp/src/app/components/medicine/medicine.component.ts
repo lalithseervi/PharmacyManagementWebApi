@@ -17,13 +17,10 @@ export class MedicineComponent implements OnInit{
 
   ngOnInit(): void {
     this.loadingService.showLoading();
-
-    // Simulate a task (like data fetch or component logic)
     setTimeout(() => {
       console.log('Task completed');
-      // Optionally stop loading early
       this.loadingService.hideLoading();
-    }, 2000);
+    }, 1000);
   }
   
   

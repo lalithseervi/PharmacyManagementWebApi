@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component } from '@angular/core';
+import { ChangeDetectorRef, Component, EventEmitter, Input, Output } from '@angular/core';
 import { NavigationEnd, NavigationError, NavigationStart, Router } from '@angular/router';
 
 @Component({
@@ -10,9 +10,13 @@ export class AppComponent {
 
   title = 'PharmacyApp';
   
-  constructor(private router: Router, private cdRef: ChangeDetectorRef) {
-    
+  isLoggedIn = false;
+  constructor() {
+    (window as any).appComponentRef = { component: this };
   }
 
-  
+  // Method to update login state
+  setLoginState(state: boolean) {
+    this.isLoggedIn = state;
+  }
 }

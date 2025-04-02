@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CommonservicesService } from 'src/app/services/commonservices.service';
+import { LoadingService } from 'src/app/services/loading.service';
 
 @Component({
   selector: 'app-supplier-list',
@@ -9,12 +10,18 @@ import { CommonservicesService } from 'src/app/services/commonservices.service';
 })
 export class SupplierListComponent implements OnInit{
   ngOnInit(): void {
+    this.loadingService.showLoading();
+    setTimeout(() => {
+      console.log('Task completed');
+      this.loadingService.hideLoading();
+    }, 1000);
+
     this.GetSupplier();
   }
   displayedColumns: string[] = ['id', 'name', 'contact', 'address', 'actions'];
   supplier: any[] = [];
 
-  constructor(private _service : CommonservicesService, private snackBar : MatSnackBar) { } 
+  constructor(private _service : CommonservicesService, private snackBar : MatSnackBar, private loadingService : LoadingService) { } 
 
   GetSupplier()
   {
